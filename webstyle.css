@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+      url('fonts/Mona-Sans.woff2') format('woff2-variations');
+    font-stretch: 75% 125%;
+  }
+body{
+    overflow-x: hidden;
+}
+.hello{
+    position:relative; 
+    color:white; 
+    font-family:'Mona Sans'; 
+    left: 55px;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.nme{
+    position: relative;
+    color: #f6f3ff;
+    left: 50px;
+    margin-top: 0px;
+    font-family: 'Mona Sans';
+    font-weight: 600;
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 32px #283e37;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.about1{
+    position: relative;
+    font-size: 26px;
+    color: rgb(49, 8, 255);
+    text-shadow: 0 0 32px rgb(66, 6, 163);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -1px;
+    left: 53px;
+    top : 25px;
+    width: 50vw;
+    overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+body{
+    background-color: #100f10;
+}
+
+.flex_container{
+    position: absolute;
+    display: flex;
+    color: white;
+    top: 20px;
+    left: 20px;
+    overflow-x: hidden;
+}
+.flex_container > div {
+    font-family: 'Mona Sans';
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17.4px;
+    cursor: default;
+  }
+
+.flex_icons{
+    position: relative;
+    display: flex;
+    left: 48px;
+    top : 10px;
+    margin-bottom: 0px;
+    overflow-x: hidden;
+}
+.flex_icons > div {
+    position: relative;
+    margin-left: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.glow{
+    position: absolute;
+    filter: blur(150px);
+    left : 580px;
+    top : -80px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+}
+
+.main_about{
+    width : 100vw;
+    height: 500px;
+    margin-top: -260px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+.main_about p:nth-child(1){
+    position: relative;
+    font-family: 'Red Hat Text', sans-serif;
+    letter-spacing: 2px;
+    top: 140px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.main_about p:nth-child(2){
+    position: relative;
+    left: 330px;
+    top: 120px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    width: 50%;
+    opacity: 0.81;
+    height: fit-content;
+    color: white;
+}
+
+.illus{
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
+.projects{
+    margin-top: 375px;
+    margin-bottom: 0px;
+    background-color: rgb(120, 45, 232);
+    width: 100vw;
+    height: 900px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.projects p:nth-child(1){
+    font-size: 65px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    letter-spacing: 0.7px;
+}
+.projects div:nth-child(2){
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    left: 200px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+}
+.projects div:nth-child(2) > div > div{
+    position: relative;
+    font-family: 'Mona Sans';
+    color:white;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+}
+.projects div:nth-child(2) > div:nth-child(1) > img{
+    opacity: 0.9;
+    box-shadow: 0 0 100px 5px rgb(88, 26, 136);
+    border-radius: 15px;
+}
+.projects div:nth-child(2) > div:nth-child(2) > img{
+    opacity: 0.9;
+    box-shadow: 0 0 100px 5px rgb(88, 26, 136);
+    border-radius: 15px;
+}
+.projects div:nth-child(3){
+    position: relative;
+    top: 80px;
+    left: 500px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+}
+.projects div:nth-child(3) > img{
+    opacity: 0.9;
+    border-radius: 15px;
+    box-shadow: 0 0 100px 5px rgb(88, 26, 136);
+    align-self: center;
+    cursor: pointer;
+}
+  .spacer {
+    position: relative;
+    top: -10px;
+    margin-bottom: 0px;
+    aspect-ratio: 960/300;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  .spacer2{
+    position: relative;
+    top: 200px;
+    width: 100vw;
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .layer1 {
+    background-image: url('layer1.svg');
+  }
+  .layer3{
+    background-image: url('layer3.svg');
+  }
+
+.proj_title{
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    font-family: 'Mona Sans';
+    font-size: 40px;
+    color: white;
+    width: 0px;
+    height: 0px;
+}
+.proj_title span:nth-child(1){
+    position: relative;
+    top: -415px;
+    left: 225px;
+    width: 200px;
+    height: 200px;
+}
+
+.proj_title span:nth-child(2){
+    position: relative;
+    top: -555px;
+    left: 825px;
+    width: 200px;
+    height: 200px;
+}
+.proj_title span:nth-child(3){
+    position: relative;
+    top: -265px;
+    left: 540px;
+    width: 200px;
+    height: 200px;
+}
+
+.layer {
+    background-color: rgba(17, 5, 28, 0.5);
+    width: 400px;
+    height: 300px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+.skills{
+    margin-top: 0px;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 900px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.skills div:nth-child(1){
+    position: relative;
+    top: 100px;
+    font-size: 80px;
+    text-align: center;
+    color: #5842e9;
+    font-family: 'Fragment Mono', monospace;
+    text-shadow: 1px 0 #5842e9, -1px 0 #5842e9, 0 1px #5842e9, 0 -1px #5842e9,
+               1px 1px #5842e9, -1px -1px #5842e9, 1px -1px #5842e9, -1px 1px #5842e9;
+}
+
+.skills div:nth-child(2){
+    z-index: 1;
+    position: relative;
+    display: flex;
+    top : 150px;
+    left: -20px;
+    width: 42%;
+    height: 180px;
+    background-color: #425be9;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -2.5px;
+    line-height: 1.3;
+    border-radius: 10px;
+    border-left: 0px;
+    font-weight: 400px;
+}
+.skills div:nth-child(3){
+    z-index: 1;
+    position: relative;
+    display: flex;
+    top : 180px;
+    left: -20px;
+    width: 42%;
+    height: 180px;
+    background-color: #e94274;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -2px;
+    line-height: 1.3;
+    border-radius: 10px;
+}
+.skills div:nth-child(4){
+    z-index: 1;
+    position: relative;
+    display: flex;
+    top : 210px;
+    left: -20px;
+    width: 42%;
+    height: 180px;
+    background-color: #9e4fff;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -3px;
+    line-height: 1.3;
+    border-radius: 10px;
+}
+.skills div:nth-child(5){
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -390px;
+    left : 40%;
+    width: 60%;
+    height: 180px;
+    background-color: #0f0e1a;
+    opacity: 0.9;
+}
+.skills > div > img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.skills div:nth-child(6){
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -360px;
+    left : 40%;
+    width: 60%;
+    height: 180px;
+    background-color: #1c0f16;
+    opacity: 0.9;
+}
+.skills div:nth-child(7){
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -330px;
+    left : 40%;
+    width: 60%;
+    height: 180px;
+    background-color: #130d19;
+    opacity: 0.9;
+}
+
+.prj_gtb{
+    position: relative;
+    cursor: pointer;
+}
+
+.prj_gtb img:nth-child(1){
+    position: relative;
+    filter: brightness(100%);
+    top: -570px;
+    left: 220px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.prj_gtb img:nth-child(2){
+    position: relative;
+    filter: brightness(100%);
+    top: -570px;
+    left: 770px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.prj_gtb img:nth-child(3){
+    position: relative;
+    filter: brightness(100%);
+    top: -180px;
+    left: 420px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+
