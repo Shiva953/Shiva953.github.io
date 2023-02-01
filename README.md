@@ -1,2 +1,2 @@
 # site
-My Personal Portfolio Website.
+My First-ever Personal Static Portfolio Website.
