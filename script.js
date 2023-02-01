@@ -57,11 +57,13 @@ for (let i=0;i<=4;i+=1){
   document.getElementById((`ic${i}`)).addEventListener("mousemove", function(event) {
       const g = document.getElementById((`ic${i}`)).getElementsByTagName("g")[0];
       g.setAttribute("fill", "#ff34ff");
+      btn[i].style.opacity = 1;
     });
     document.getElementById((`ic${i}`)).addEventListener("mouseout", function(event) {
       const g = document.getElementById((`ic${i}`)).getElementsByTagName("g")[0];
       g.setAttribute("fill", "#ffffff");
+      btn[i].style.opacity = 0.8;
     });
-    tps[i].addEventListener('mousemove',()=>{tps[i].style.color='#73deff'})
+    tps[i].addEventListener('mousemove',()=>{tps[i].style.color='#97e5fc'})
     tps[i].addEventListener('mouseout',()=>{tps[i].style.color='#ffffff'})
     }
