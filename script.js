@@ -51,3 +51,17 @@ tps[2].addEventListener('click',function(){projects.scrollIntoView({behavior: 's
 tps[3].addEventListener('click',function(){skills.scrollIntoView({behavior: 'smooth'});});
 const btn = Array.from(document.getElementsByClassName('flex_icons')[0].childNodes).filter(node => node.nodeType!== Node.TEXT_NODE)
 const lnks = ["https://github.com/Shiva953","https://www.linkedin.com/in/shiva-seth-958114233/","https://www.reddit.com/user/Xiotus","https://discord.com/users/791137267535970324","https://twitter.com/Galactron71"]
+
+for (let i=0;i<=4;i+=1){
+  btn[i].addEventListener('click',()=>{window.open(lnks[i],'_blank')})
+  document.getElementById((`ic${i}`)).addEventListener("mousemove", function(event) {
+      const g = document.getElementById((`ic${i}`)).getElementsByTagName("g")[0];
+      g.setAttribute("fill", "#ff34ff");
+    });
+    document.getElementById((`ic${i}`)).addEventListener("mouseout", function(event) {
+      const g = document.getElementById((`ic${i}`)).getElementsByTagName("g")[0];
+      g.setAttribute("fill", "#ffffff");
+    });
+    tps[i].addEventListener('mousemove',()=>{tps[i].style.color='#73deff'})
+    tps[i].addEventListener('mouseout',()=>{tps[i].style.color='#ffffff'})
+    }
