@@ -54,10 +54,19 @@ const lnks = ["https://github.com/Shiva953","https://www.linkedin.com/in/shiva-s
 
 
 for (let i=0;i<=4;i+=1){
+  btn[i].addEventListener('click',()=>{window.open(lnks[i],'_blank')})
+  document.getElementById((`ic${i}`)).addEventListener("mousemove", function(event) {
+      const g = document.getElementById((`ic${i}`)).getElementsByTagName("g")[0];
+      g.setAttribute("fill", "#ff34ff");
+    });
+    document.getElementById((`ic${i}`)).addEventListener("mouseout", function(event) {
+      const g = document.getElementById((`ic${i}`)).getElementsByTagName("g")[0];
+      g.setAttribute("fill", "#ffffff");
+    });
     tps[i].addEventListener('mousemove',()=>{tps[i].style.color='#73deff'})
     tps[i].addEventListener('mouseout',()=>{tps[i].style.color='#ffffff'})
-    btn[i].addEventListener('click',()=>{window.open(lnks[i],'_blank')})
     }
+
 var opac = 0;
 function FadeFunction() {
     if (opac<1) {
