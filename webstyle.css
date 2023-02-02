@@ -102,14 +102,16 @@ body{
     width : 100vw;
     height: 500px;
     margin-top: -260px;
-    margin-bottom: 0px;
+    margin-bottom: 500px;
     margin-left: 0;
     margin-right: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
 .main_about p:nth-child(1){
+    z-index: 1;
     position: relative;
     font-family: 'Red Hat Text', sans-serif;
     letter-spacing: 2px;
@@ -120,6 +122,7 @@ body{
 }
 
 .main_about p:nth-child(2){
+    z-index: 1;
     position: relative;
     left: 330px;
     top: 120px;
@@ -128,9 +131,59 @@ body{
     letter-spacing: 1px;
     font-size: 20px;
     width: 50%;
-    opacity: 0.81;
+    opacity: 0.82;
     height: fit-content;
     color: white;
+}
+
+.favourites{
+    position: relative;
+    left: -30px;
+    top : -460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.favourites > div > div{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index : 1; position :relative; top : -80px; left: 54px; color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;       
+    opacity: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 25.2427px;
+    font-weight: 700;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.favourites>div>img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-radius: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #000000;
+    cursor: pointer;
+}
+.favourites>div:hover>img{
+    -webkit-filter: brightness(50%);
+    transform: scale(1.03);
+}
+.favourites>div:hover>div{
+    opacity: 1;
+    transform: scale(1.03);
+}
+.favourites div:nth-child(4){
+    z-index: 1; position: relative; left: -200px; display: flex;
+    color: white;
+}
+.favourites div:nth-child(4)>div{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .illus{
@@ -143,7 +196,7 @@ body{
 }
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
 .projects{
-    margin-top: 375px;
+    margin-top: -200px;
     margin-bottom: 0px;
     background-color: rgb(120, 45, 232);
     width: 100vw;
@@ -272,7 +325,7 @@ body{
     height: 300px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 .skills{
     margin-top: 0px;
     background-color: #ffffff;
@@ -404,8 +457,6 @@ body{
     background-color: #130d19;
     opacity: 0.9;
 }
-
-
 
 .prj_gtb{
     position: relative;
