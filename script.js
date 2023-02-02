@@ -46,6 +46,7 @@ const tps = Array.from(document.getElementsByClassName('flex_container')[0].chil
 const about = document.getElementsByClassName("main_about")[0]
 const skills = document.getElementsByClassName("skills")[0]
 const projects = document.getElementsByClassName("projects")[0]
+tps[0].addEventListener('click',function(){window.open('https://neutronsblog.hashnode.dev/','_blank')})
 tps[1].addEventListener('click',function(){about.scrollIntoView({behavior: 'smooth'});});
 tps[2].addEventListener('click',function(){projects.scrollIntoView({behavior: 'smooth'});});
 tps[3].addEventListener('click',function(){skills.scrollIntoView({behavior: 'smooth'});});
