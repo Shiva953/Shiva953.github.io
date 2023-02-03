@@ -53,6 +53,11 @@ tps[3].addEventListener('click',function(){skills.scrollIntoView({behavior: 'smo
 const btn = Array.from(document.getElementsByClassName('flex_icons')[0].childNodes).filter(node => node.nodeType!== Node.TEXT_NODE)
 const lnks = ["https://github.com/Shiva953","https://www.linkedin.com/in/shiva-seth-958114233/","https://www.reddit.com/user/Xiotus","https://discord.com/users/791137267535970324","https://twitter.com/Galactron71"]
 
+const fav = Array.from(document.getElementsByClassName('favourites')[0].childNodes).filter(node => node.nodeType!== Node.TEXT_NODE)
+fav[0].addEventListener('click',()=>{window.open('https://open.spotify.com/playlist/3vvXnLFktxlSLSHW0rSUog?si=7a64ff4e21674866&pt=c61a81d73c2c55592801c7eaa5645876','_blank')})
+fav[1].addEventListener('click',()=>{window.open('https://www.notion.so/All-Time-Favourite-Books-e82eef3e3058438190bbf1f3567b19a1','_blank')})
+fav[2].addEventListener('click',()=>{window.open('','_blank')})
+
 for (let i=0;i<=4;i+=1){
   btn[i].addEventListener('click',()=>{window.open(lnks[i],'_blank')})
   document.getElementById((`ic${i}`)).addEventListener("mousemove", function(event) {
@@ -68,3 +73,5 @@ for (let i=0;i<=4;i+=1){
     tps[i].addEventListener('mousemove',()=>{tps[i].style.color='#97e5fc'})
     tps[i].addEventListener('mouseout',()=>{tps[i].style.color='#ffffff'})
     }
+
+
