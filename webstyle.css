@@ -25,12 +25,13 @@ body{
     color: #f6f3ff;
     left: 50px;
     margin-top: 0px;
+    margin-right: 0px;
+    width: 100px;
     font-family: 'Mona Sans';
     font-weight: 600;
     font-size: 80px;
     letter-spacing: 2px;
     text-shadow: 0 0 32px #283e37;
-    box-sizing: border-box;
     cursor: default;
 }
 
@@ -38,12 +39,12 @@ body{
 .about1{
     position: relative;
     font-size: 26px;
-    color: rgb(49, 8, 255);
-    text-shadow: 0 0 32px rgb(66, 6, 163);
+    color: rgb(53, 219, 213);
+    text-shadow: 0 0 32px rgb(6, 82, 110);
     font-family: 'Roboto Mono', monospace;
-    letter-spacing: -1px;
+    letter-spacing: -0.1px;
     left: 53px;
-    top : 25px;
+    top : 20px;
     width: 50vw;
     overflow: hidden;
 }
@@ -412,7 +413,7 @@ body{
     left : 40%;
     width: 60%;
     height: 180px;
-    background-color: #0f0e1a;
+    background-color: #0E1117;
     opacity: 0.9;
 }
 .skills > div > img{
@@ -436,7 +437,7 @@ body{
     left : 40%;
     width: 60%;
     height: 180px;
-    background-color: #1c0f16;
+    background-color: #0E1117;
     opacity: 0.9;
 }
 /* .skills div:nth-child(6) > img:hover{
@@ -454,7 +455,7 @@ body{
     left : 40%;
     width: 60%;
     height: 180px;
-    background-color: #130d19;
+    background-color: #0E1117;
     opacity: 0.9;
 }
 

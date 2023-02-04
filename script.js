@@ -15,7 +15,7 @@ document.body.addEventListener('mousemove',MyFadeFunction())
 
 var k = 0;
 var txt = "I'm currently learning web development and diving into the world of dev and open source.";
-var speed = 100;
+var speed = 50;
 function typeWriter(){
   if (k < txt.length) {
     document.getElementsByClassName("typing-text")[0].innerHTML += txt.charAt(k);
@@ -62,7 +62,7 @@ for (let i=0;i<=4;i+=1){
   btn[i].addEventListener('click',()=>{window.open(lnks[i],'_blank')})
   document.getElementById((`ic${i}`)).addEventListener("mousemove", function(event) {
       const g = document.getElementById((`ic${i}`)).getElementsByTagName("g")[0];
-      g.setAttribute("fill", "#ff34ff");
+      g.setAttribute("fill", "#e096ff");
       btn[i].style.opacity = 1;
     });
     document.getElementById((`ic${i}`)).addEventListener("mouseout", function(event) {
