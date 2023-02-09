@@ -8,41 +8,77 @@
 body{
     overflow-x: hidden;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 .hello{
     position:relative; 
     color:white; 
-    font-family:'Mona Sans'; 
+    font-family:'Space Mono', monospace; 
     left: 55px;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 150px;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
-    font-weight: 500;
+    margin-bottom: 0;
+    letter-spacing: -0.8px;
+    font-weight: 800;
     opacity: 0.7;
 }
 .nme{
     position: relative;
-    color: #f6f3ff;
+    color: #8a63ff;
     left: 50px;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-right: 0px;
     width: 100px;
-    font-family: 'Mona Sans';
-    font-weight: 600;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-weight: 700;
     font-size: 80px;
-    letter-spacing: 2px;
-    text-shadow: 0 0 32px #283e37;
     cursor: default;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.contact_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size:fit-content;
+    letter-spacing: 1px;
+    font-size: 1em;
+    position: relative;
+    top: 10px;
+    left: 54px;
+    width: 180px;
+    height: 45px;
+    padding : 0;
+    font-family: 'Space Mono',monospace;
+    font-weight: 400;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: all 0.02s ease-in;
+}
+.contact_button>img{
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+.contact_button:hover{
+    background-color: rgb(218,40,119);
+    border-color: rgb(218,40,119);
+}
+.contact_button:hover>img{
+    transform: rotate(90deg);
+    top: 7px;
+    left: 7px;
+    transition: 0.3s ease-in-out;
+}
+
 .about1{
     position: relative;
     font-size: 26px;
     color: rgb(53, 219, 213);
     text-shadow: 0 0 32px rgb(6, 82, 110);
-    font-family: 'Roboto Mono', monospace;
-    letter-spacing: -0.1px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: -1.8px;
     left: 53px;
     top : 20px;
     width: 50vw;
@@ -53,39 +89,40 @@ body{
 body{
     background-color: #100f10;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 .flex_container{
-    position: absolute;
+    z-index: 3;
+    position: fixed;
     display: flex;
     color: white;
-    top: 20px;
-    left: 20px;
+    top: 0;
+    left: 0;
     overflow-x: hidden;
+    background-color: rgb(0, 0, 0, 0.02);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
 }
 .flex_container > div {
-    font-family: 'Mona Sans';
+    position: relative;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+    left: 15px;
+    top: 15px;
+    margin-top: 20px;
     letter-spacing: 1px;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 15.6px;
+    height: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16.1px;
     cursor: default;
+    opacity: 0.7;
+    transition: all 0.23s ease-in-out;
   }
-
-.flex_icons{
-    position: relative;
-    display: flex;
-    left: 48px;
-    top : 10px;
-    margin-bottom: 0px;
-    overflow-x: hidden;
-}
-.flex_icons > div {
-    position: relative;
-    margin-left: 12px;
-    margin-right: 12px;
+.flex_container > div:hover{
+    text-decoration: underline;
+    opacity: 1;
     cursor: pointer;
-    opacity: 0.5;
 }
 
 .glow{
@@ -127,7 +164,9 @@ body{
     position: relative;
     left: 330px;
     top: 120px;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-weight: 150;
+    font-stretch: semi-expanded;
     text-align: center;
     letter-spacing: 1px;
     font-size: 20px;
@@ -494,4 +533,39 @@ body{
     opacity: 0;
 }
 
-
+#socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 400px;
+    padding: 0;
+    margin: 0 0 -40px 0;
+    background-color: rgb(0, 0, 0, 1);
+}
+.line{
+    position: relative;
+    left: -664px;
+    top: -160px;
+    width: 1.4px;
+    height: 120px;
+    background-color: white;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+.flex_icons{
+    position: relative;
+    left: 500px;
+    top : 160px;
+    overflow-x: hidden;
+}
+.flex_icons > div {
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    transition: all 0.07s ease-in-out;
+}
+.flex_icons>div:hover{
+    transform: scale(1.15);
+}
