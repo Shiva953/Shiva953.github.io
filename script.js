@@ -72,6 +72,9 @@ document.getElementById((`ic5`)).addEventListener("mouseout", function(event) {
   const g = document.getElementById((`ic5`)).getElementsByTagName("g")[0];
   g.setAttribute("fill", "#ffffff");
 });
+const hello = document.getElementsByClassName('hello_button')[0]
+hello.addEventListener('click',function(){window.open('mailto:shivaset2@gmail.com','_blank')})
+
 for (let i=0;i<=5;i+=1){
   if(i<3){
     btn[i].addEventListener('click',()=>{window.open(lnks[i],'_blank')})
@@ -90,6 +93,7 @@ for (let i=0;i<=5;i+=1){
     tps[i].addEventListener('mousemove',()=>{tps[i].style.color='#97e5fc';})
     tps[i].addEventListener('mouseout',()=>{tps[i].style.color='#ffffff';})
     }
+
 
 
 
