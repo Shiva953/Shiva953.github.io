@@ -70,15 +70,16 @@ body{
     left: 7px;
     transition: 0.3s ease-in-out;
 }
-
-.about1{
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+.about1 > p{
     position: relative;
     font-size: 20px;
-    color: rgb(53, 219, 213);
-    text-shadow: 0 0 40px rgb(4, 42, 56);
-    font-family: Fira Code,Monaco,Consolas,Ubuntu Mono,monospace;
+    color: rgb(25, 226, 233);
+    text-shadow: 0 0 60px rgba(0, 187, 255, 0.501);
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     font-weight: 100;
-    letter-spacing: 1px;
+    letter-spacing: -0.1px;
     left: 60px;
     top : 20px;
     width: 50vw;
@@ -100,6 +101,7 @@ body{
     overflow-x: hidden;
     background-color: rgb(0, 0, 0, 0.02);
     backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
     width: 100%;
     height: 80px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
@@ -164,11 +166,11 @@ body{
     position: relative;
     left: 330px;
     top: 120px;
-    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family: 'Lexend Deca',sans-serif;
     font-weight: 150;
     font-stretch: semi-expanded;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-size: 20px;
     width: 50%;
     opacity: 0.82;
@@ -596,8 +598,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
-    height: 50px;
+    width: 160px;
+    height: 60px;
     border-radius: 6px;
     font-family: 'Space Mono', monospace;
     font-size: 15px;
