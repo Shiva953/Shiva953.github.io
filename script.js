@@ -62,7 +62,7 @@ const fav = Array.from(document.getElementsByClassName('favourites')[0].childNod
     fav[2].addEventListener('click',()=>{window.open('','_blank')})
 const btn = Array.from(document.getElementsByClassName('flex_icons')[0].childNodes).filter(node => node.nodeType!== Node.TEXT_NODE)
 const btn2 = Array.from(document.getElementsByClassName('flex_icons')[1].childNodes).filter(node => node.nodeType!== Node.TEXT_NODE)
-const lnks = ["https://github.com/Shiva953","https://www.linkedin.com/in/shiva-seth-958114233/",'shivaset2@gmail.com',"https://discord.com/users/791137267535970324","https://twitter.com/Galactron71","https://www.reddit.com/user/Xiotus"]
+const lnks = ["https://github.com/Shiva953","https://www.linkedin.com/in/shiva-seth-958114233/","mailto:shivaset2@gmail.com","https://discord.com/users/791137267535970324","https://twitter.com/Galactron71","https://www.reddit.com/user/Xiotus"]
 btn2[2].addEventListener('click',()=>{window.open(lnks[5],'_blank')})
 document.getElementById((`ic5`)).addEventListener("mousemove", function(event) {
   const g = document.getElementById((`ic5`)).getElementsByTagName("g")[0];

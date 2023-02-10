@@ -33,7 +33,6 @@ body{
     font-size: 80px;
     cursor: default;
 }
-
 .contact_button{
     display: flex;
     align-items: center;
@@ -74,12 +73,13 @@ body{
 
 .about1{
     position: relative;
-    font-size: 26px;
+    font-size: 20px;
     color: rgb(53, 219, 213);
-    text-shadow: 0 0 32px rgb(6, 82, 110);
-    font-family: 'Space Mono', monospace;
-    letter-spacing: -1.8px;
-    left: 53px;
+    text-shadow: 0 0 40px rgb(4, 42, 56);
+    font-family: Fira Code,Monaco,Consolas,Ubuntu Mono,monospace;
+    font-weight: 100;
+    letter-spacing: 1px;
+    left: 60px;
     top : 20px;
     width: 50vw;
     overflow: hidden;
