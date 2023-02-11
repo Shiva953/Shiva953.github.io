@@ -544,17 +544,18 @@ body{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 400px;
+    height: 500px;
     padding: 0;
     margin: 0 0 -40px 0;
     background-color: rgb(0, 0, 0, 1);
+    overflow: hidden;
 }
 .line{
     position: relative;
     left: -664px;
     top: -160px;
     width: 1.4px;
-    height: 120px;
+    height: 160px;
     background-color: white;
     margin-bottom: 24px;
     border-radius: 10px;
@@ -578,7 +579,7 @@ body{
 
 .x1{
     position: relative;
-    top: -220px;
+    top: -260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -593,7 +594,7 @@ body{
 }
 .x2{
     position: relative;
-    top: -150px;
+    top: -190px;
     left: 630px;
     display: flex;
     justify-content: center;
@@ -612,3 +613,19 @@ body{
     background-color: rgb(100, 255, 218,0.1);
     cursor: pointer;
 }
+.x3{
+    position: relative;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 11.9px;
+    letter-spacing: -0.05px;
+    color: rgba(255, 255, 255, 0.69);
+    text-align: center;
+    top: -60px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.x3:hover{
+    color: #64ffdbf9;
+}
+
+
