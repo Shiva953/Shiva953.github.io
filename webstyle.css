@@ -7,6 +7,7 @@
   }
 body{
     overflow-x: hidden;
+    background-size: cover;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 .hello{
@@ -78,7 +79,7 @@ body{
     color: rgb(25, 226, 233);
     text-shadow: 0 0 60px rgba(0, 187, 255, 0.501);
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: -0.1px;
     left: 60px;
     top : 20px;
@@ -88,7 +89,7 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
 body{
-    background-color: #100f10;
+    background-color: #06000f;
 }
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 .flex_container{
@@ -141,7 +142,7 @@ body{
 .main_about{
     width : 100vw;
     height: 500px;
-    margin-top: -260px;
+    margin-top: 300px;
     margin-bottom: 500px;
     margin-left: 0;
     margin-right: 0;
@@ -230,8 +231,12 @@ body{
 
 .illus{
     position: absolute;
-    top: 0px;
-    left: 800px;
+    z-index: -1;
+    top: -200px;
+    left: 200px;
+    width: 1200px;
+    height: 1200px;
+    margin-left: -100px;
     overflow-x: hidden;
     overflow-y: hidden;
     margin-bottom: 50px;
@@ -544,7 +549,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 500px;
+    height: 550px;
     padding: 0;
     margin: 0 0 -40px 0;
     background-color: rgb(0, 0, 0, 1);

@@ -17,7 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body>q
         <!-- <h1>My First Webpage</h1> -->
         <div class="glow" style="transform:translateZ(-1px);background-color:rgb(68, 0, 255);width: 150px;height: 150px;"></div>
         <div class="flex_container">
@@ -35,9 +35,9 @@
         <div class="about1">
             <p class="typing-text"></p>
         </div>
-        <div class="illus"><img src="icons/illus_tech.png" width="500" height="500"></div>
-        <div class="spacer2 layer3"></div>
-        <div class="spacer layer1"></div>
+        <div class="illus"></div>
+        <!-- <div class="spacer2 layer3"></div>
+        <div class="spacer layer1"></div> -->
         <div class="main_about">
             <p>ABOUT ME</p>
             <p>I'm a first year undergraduate student pursuing BTech from IIT Mandi.
@@ -117,5 +117,25 @@
                 <!-- <div class="x4">Shiva Seth</div> -->
             </div>
             <script src="script.js"></script>
+            <script src="ring/three.r134.min.js"></script>
+            <script src="ring/vanta.halo.min.js"></script>
+            <script src="ring/vanta.rings.min.js"></script>
+            <script>
+            VANTA.HALO({
+            el: ".illus",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            cameraPosition: { x: 100, y: 0},
+            minHeight: 100.00,
+            minWidth: 100.00,
+            baseColor: 0x1f59,
+            backgroundColor: 0x6000f,
+            amplitudeFactor: 1.80,
+            xOffset: 0.02,
+            yOffset: 0.09,
+            size: 0.40
+            })
+            </script>
     </body>
 </html>
