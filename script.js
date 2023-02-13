@@ -3,15 +3,15 @@ nm.addEventListener('mousemove',function(event) {nm.textContent='Shiva'});
 nm.addEventListener('mouseout',function(event) {nm.textContent='Shiva'});
 nm.textContent = 'Shiva';
 
-var opacity = 0;
-function MyFadeFunction() {
-   if (opacity<1) {
-      opacity += .01;
-      setTimeout(function(){MyFadeFunction()},11);
-   }
-   nm.style.opacity = opacity;
-}
-document.body.addEventListener('mousemove',MyFadeFunction())
+// var opacity = 0;
+// function MyFadeFunction() {
+//    if (opacity<1) {
+//       opacity += .01;
+//       setTimeout(function(){MyFadeFunction()},11);
+//    }
+//    nm.style.opacity = opacity;
+// }
+// document.body.addEventListener('mousemove',MyFadeFunction())
 
 var k = 0;
 var txt = "I'm currently learning web development and diving into the world of dev and open source.";
