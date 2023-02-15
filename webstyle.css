@@ -36,41 +36,16 @@ body{
     -webkit-animation: flickering 0.08s linear infinite;
     text-shadow: 0 0 80px rgba(255, 34, 189, 0.842);
     transition: all 0.3s ease-in-out;
-    /* background-image: url('icons/br.png');
-    background-size: 100px 2px;
-    background-repeat: repeat-y;
-    -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; */
 }
-/* .hbars{
-    position: relative;
-    background-image: url('icons/bars.jpeg');
-    background-size: 200px 40px;
-    opacity: 0.2;
-    width: 200px;
-    height: 70px;
-    z-index: 1;
-    top: -75px;
-    left: 50px;
-    background-blend-mode:exclusion;
-    mask-image: url('icons/bars.jpeg');
-} */
+
 @keyframes flickering {
-    20% {opacity: 0.5;}
+    20% {opacity: 0.76;}
     /* 50% { opacity: 1; } */
   }
-@keyframes blure {
-    100% {filter: blur(50px);}
-}
-.nme::before{
-    animation: blure 0.1s linear;
-}
-.nme::after{
-    filter: blur(0px);
-}
 .nme:hover{
     color: rgb(94, 167, 255);
     text-shadow: 0 0 80px rgba(43, 255, 255, 0.678);
+    
 }
 
 .contact_button{
