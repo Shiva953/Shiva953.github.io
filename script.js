@@ -1,7 +1,17 @@
 let nm = document.getElementsByClassName("nme")[0];
-nm.addEventListener('mousemove',function(event) {nm.textContent='Shiva'});
+// nm.addEventListener('mousemove',function(event) {nm.textContent='Shiva'});
 nm.addEventListener('mouseout',function(event) {nm.textContent='Shiva'});
-nm.textContent = 'Shiva';
+nm.onmouseover = e => {
+  let iterations = 0;
+  const interval = setInterval(()=>{e.target.innerText = e.target.innerText.split("").map(letter =>  String.fromCharCode(Math.floor(Math.random()*26)+65)).join("");
+  if(iterations>=100){
+    clearInterval(interval);
+    nm.textContent = "Shiva"
+  }
+  iterations+=1;},5);
+}
+
+
 
 var opacity = 0;
 function MyFadeFunction() {
